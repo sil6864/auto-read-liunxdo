@@ -4,7 +4,6 @@ on:
   schedule:
     # 每天 UTC 时间 18:00 运行
     - cron: "1 2 23 31 1 7"
-  workflow_dispatch: # 允许手动触发
 
 jobs:
   build:
